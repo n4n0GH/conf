@@ -1,0 +1,22 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AutoFileName",
+		"BracketHighlighter",
+		"ColorHints",
+		"DocBlockr",
+		"Emmet",
+		"Ethereum",
+		"FileIcons Mono",
+		"Package Control",
+		"RemoteCollab",
+		"SublimeLinter",
+		"Sync View Scroll",
+		"Theme - Spacegray",
+		"Vue Syntax Highlight"
+	]
+}

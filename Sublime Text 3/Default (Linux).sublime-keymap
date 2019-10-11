@@ -1,0 +1,9 @@
+[
+	{ "keys": ["ctrl+#"], "command": "toggle_comment", "args": { "block": false } },
+	{ "keys": ["ctrl+shift+#"], "command": "toggle_comment", "args": { "block": true } },
+	// wraps selection in tag
+	{ "keys": ["alt+shift+t"], "command": "insert_snippet", "args": { "contents": "<${1}>${0:$SELECTION}</${1}>"} },
+	// return tab switching to sane behavior
+	{ "keys": ["ctrl+tab"], "command": "next_view"},
+	{"keys": ["ctrl+shift+tab"], "command": "prev_view"},
+]
