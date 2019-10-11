@@ -21,9 +21,7 @@ POWERLEVEL9K_SHORTEN_DIR_LENGTH=3
 POWERLEVEL9K_SHORTEN_STRATEGY=truncate_folders
 
 # config for plugins
-plugins=(git)
-
-source $ZSH/oh-my-zsh.sh
+plugins=(git npm zsh-syntax-highlighting)
 
 # quick access to transfer.sh
 transfer() { 
@@ -39,6 +37,12 @@ transfer() {
     cat $tmpfile; 
     rm -f $tmpfile; 
 }
+
+# create saner defaults
+alias cp="cp -i"
+alias mv="mv -i"
+alias rm="rm -i"
+alias ls="ls -lNh --color=always"
 
 # quick aliases for zsh
 alias reconf="source ~/.zshrc"
@@ -58,3 +62,5 @@ alias gac="git add . && git commit -m"
 alias gps="git push"
 alias gf="git fetch"
 alias gpl="git pull"
+
+source $ZSH/oh-my-zsh.sh
