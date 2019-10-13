@@ -1,0 +1,39 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+#titlebar-content {
+  direction: rtl;
+}
+
+#TabsToolbar {
+  direction: rtl;
+}
+
+#tabbrowser-tabs {
+  direction: ltr;
+} 
+
+.titlebar-close {
+  -moz-box-ordinal-group: 4;
+  margin-right: 6px!important;
+  margin-left: 5px!important;
+}
+
+.titlebar-min {
+  -moz-box-ordinal-group: 3;
+}
+
+.titlebar-max {
+  -moz-box-ordinal-group: 2;
+}
+
+.titlebar-spacer[type="post-tabs"] {
+  width: 10px!important;
+}
+
+.titlebar-spacer[type="pre-tabs"]{
+  border-inline-end: none!important;
+}
+
+.tabs-newtab-button {
+  transform: scale(0.7)!important;
+}

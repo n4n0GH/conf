@@ -1,0 +1,34 @@
+.HUD {
+    background: linear-gradient(#ff0052,#db0046);
+    color: white;
+    border-color: #ff0052;
+    height:1.2rem; 
+    border-radius:2px; 
+    margin: auto;
+    left:0;
+    right:0;
+    bottom: .5rem;
+    max-width:100%;
+    width: 50%!important; 
+    padding: 1rem 2rem;
+    font-size:1.2rem;
+    text-align: center;
+}
+.LH {
+    background: linear-gradient(#ff0052,#db0046);
+    color: white;
+    border-color: #ff0052;
+    padding-bottom: 3px;
+}
+
+/* #find */
+* {
+    height:1.2rem!important; 
+    color: white;
+}
+#s {
+    flex:0 0 .6rem!important;
+}
+#s, #i, #c {
+    font-size:1.2rem!important;
+}
